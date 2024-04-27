@@ -5,12 +5,12 @@ cache: true
 interface:
   # Privacy policy settings
   privacyPolicy:
-    externalUrl: 'https://librechat.ai/privacy-policy'
+    externalUrl: 'https://pokapoka.fun'
     openNewTab: true
 
   # Terms of service
   termsOfService:
-    externalUrl: 'https://librechat.ai/tos'
+    externalUrl: 'https://pokapoka.fun'
     openNewTab: true
 
 registration:
@@ -248,7 +248,7 @@ endpoints:
       forcePrompt: false
       dropParams: ["stop"]
       modelDisplayLabel: "Perplexity"
-      iconURL: "https://raw.githubusercontent.com/fuegovic/lc-config-yaml/main/icons/perplexityai.png"
+      iconURL: "https://raw.githubusercontent.com/z2x-code/lc-config-yaml/z2x-dev/icons/perplexityai.png"
 
     - name: "Anyscale"
       apiKey: "${ANYSCALE_API_KEY}"
