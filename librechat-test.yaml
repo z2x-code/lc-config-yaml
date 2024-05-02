@@ -1,4 +1,4 @@
-version: 1.0.5
+version: 1.0.8
 
 cache: true
 
@@ -44,7 +44,7 @@ endpoints:
           ]
         fetch: false
       titleConvo: true
-      titleModel: "current_model"
+      titleModel: "gpt-3.5-turbo"
       dropParams: ["stream"]
 
     # ChatGPT
@@ -344,6 +344,9 @@ endpoints:
       summaryModel: "gpt-35-turbo"
       forcePrompt: false
       modelDisplayLabel: "DEEPNIGHT"
+      addParams:
+        stream: True
+      iconURL: "https://raw.githubusercontent.com/fuegovic/lc-config-yaml/main/icons/DEEPNIGHT.png"
 
     - name: "Anyscale"
       apiKey: "${ANYSCALE_API_KEY}"
