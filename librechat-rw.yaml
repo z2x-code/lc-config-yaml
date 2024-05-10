@@ -2,6 +2,8 @@ version: 1.0.8
 
 cache: true
 
+fileStrategy: "firebase"
+
 interface:
   # Privacy policy settings
   privacyPolicy:
