@@ -1,0 +1,17 @@
+version: 1.0.8
+
+cache: true
+
+interface:
+  # Privacy policy settings
+  privacyPolicy:
+    externalUrl: 'https://chat.pokapoka.fun'
+    openNewTab: true
+
+  # Terms of service
+  termsOfService:
+    externalUrl: 'https://chat.pokapoka.fun'
+    openNewTab: true
+
+registration:
+  socialLogins: ["discord", "facebook", "github", "google", "openid"]
